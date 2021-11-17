@@ -1,7 +1,7 @@
 [
     {
         "ParentId": 91839,
-        "Description": "<div><strong>Env: </strong>test<br><strong>Preconditions: </strong>customer and project are created, the invoice is sent t this customer. <br><strong>Steps to reproduce:</strong></div><ol><li>Log in as admin</li><li>Navigate to the \"Invoice\" from the preconditions</li><li>Fill in the \"Amount\" and the \"Fee\" fields in the \"Payments\" section (right-bottom of the page) with any valid values</li><li>Click the \"Process Expense\" checkbox</li><li>Click the \"Add Payment\" button</li><li>Navigate to the \"Analitycs\" → \"Gross Margin Report\"&nbsp;</li><li>Search for the client from preconditions</li><li>Verify \"Expenses\" column</li></ol><div><strong>Actual Result: </strong>value in the \"Expenses\" column for this project is \"0\"<br><strong>Expected Result: </strong>value in the \"Expenses\" column is equal to the fee that was provided<br><strong>Note: </strong>on the \"Transaction\" → \"Expenses\" page expenses are shown correctly. <strong>See the screenshot attached</strong></div>",
+        "Description": "",
         "Status": 695,
         "AssignedTo": null,
         "IncompletedCount": 0,
